@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0`}>
-        <div className='flex flex-col justify-between items-center sm:flex-row'>
+        <div className='flex flex-col justify-between items-center sm:flex-row sm:gap-20'>
           <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-4`}>
             {sectionText.map(({ id, title, paragraph }) => (
               <React.Fragment key={id}>
@@ -19,7 +19,7 @@ const Hero = () => {
                 </p>
               </React.Fragment>
             ))}
-            <div className='flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between w-full sm:w-1/2 md:w-full lg:w-1/2 '>
+            <div className='flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between w-full sm:w-[500px]  '>
               <input
                 type='email'
                 placeholder='Enter your email'

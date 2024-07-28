@@ -8,7 +8,7 @@ import { collaboration } from './static';
 const Collaboration = () => {
   return (
     <section className={`${layout.sectionReverse} ${styles.paddingY}`}>
-    <div className={`flex ${styles.flexStart}  md:flex-col sm:flex-row xl:px-0 sm:px-16 px-6 gap-0 flex-col lg:flex-row`}>
+    <div className={`flex ${styles.flexStart}  md:flex-col sm:flex-row xl:px-0 sm:px-16 px-6 gap-0 flex-col lg:flex-row sm:gap-40`}>
       <div className='flex flex-col gap-6'> 
          <Button buttonText="How it works"/>
          <span className={`${styles.sectionTitle}`} >Building the best space

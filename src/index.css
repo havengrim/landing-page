@@ -20,3 +20,6 @@
   .square-bullet {
     list-style-type:square;
   }
+  .self-end-important {
+    align-self: flex-end !important;
+  }

@@ -8,7 +8,7 @@ import { description } from './static';
 const AboutUs = () => {
   return (
     <section className={`${layout.sectionReverse} ${styles.paddingY}`}>
-          <div className={`flex ${styles.flexStart}  md:flex-col sm:flex-row xl:px-0 sm:px-16 px-6 gap-5 flex-col-reverse lg:flex-row`}>
+          <div className={`flex ${styles.flexStart}  md:flex-col sm:flex-row xl:px-0 sm:px-16 px-6 gap-5 flex-col-reverse lg:flex-row sm:gap-40`}>
           <img
                 src={illustration2}
                 alt="Illustration"
