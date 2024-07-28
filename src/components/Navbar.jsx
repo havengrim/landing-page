@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white ">
+    <nav className="">
       <div className="container px-2 py-4 mx-auto">
         <div className="lg:flex lg:items-center">
           <div className="flex items-center justify-between">

@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className='font-custom text-3xl sm:text-5xl mb-2'>
                   {title}
                 </h1>
-                <p className='text-base sm:text-lg mt-2'>
+                <p className='text-base sm:text-lg mt-2 font-custom'>
                   {paragraph}
                 </p>
               </React.Fragment>

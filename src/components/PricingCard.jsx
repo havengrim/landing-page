@@ -5,7 +5,7 @@ import '../index.css';
 
 const PricingCard = ({ price, period, licenseText, features, buttonText, className }) => {
   return (
-    <div className={`flex flex-col justify-between items-start cursor-pointer px-8 py-4 border-slate-700 border-2 h-[450px] ${className}`}>
+    <div className={`flex flex-col justify-between items-start cursor-pointer px-8 py-4 border-slate-700 border-2 h-[480px] ${className}`}>
       <div className='flex flex-col'>
         <div className='flex gap-2 font-bold'>
           <span className='flex self-start'>$</span>

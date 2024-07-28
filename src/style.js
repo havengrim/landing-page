@@ -14,7 +14,7 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
     sectionTitle: "font-custom text-3xl sm:text-5xl",
-    sectionParagraph: "text-base sm:text-lg",
+    sectionParagraph: "font-custom text-base sm:text-lg",
   };
   
   export const layout = {

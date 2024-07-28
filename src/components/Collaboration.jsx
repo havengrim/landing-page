@@ -18,8 +18,8 @@ const Collaboration = () => {
                 <li className='flex flex-col sm:flex-row gap-2'>
                     <img src={text.img} alt="icon" className='w-20 h-20'/>
                     <div className='flex flex-col  justify-between'>
-                        <span className='font-semibold text-xl'>{text.colabTitle}</span>
-                        <span className='text-[14px]'>{text.colabDes}</span>
+                        <span className='font-semibold text-xl font-custom'>{text.colabTitle}</span>
+                        <span className='text-[14px] font-custom'>{text.colabDes}</span>
                     </div>
                 </li>
               </ul>
