@@ -5,6 +5,7 @@ import './App.css'
 import { Navbar,  Hero } from './components/index'
 import styles from './style'
 import AboutUs from './components/AboutUs'
+import Collaboration from './components/Collaboration'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <AboutUs />
+        <Collaboration />
       </div>
     </div>
   )

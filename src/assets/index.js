@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import illustration1 from "./Illustrations_1.png";
 import illustration2 from "./Illustrations_2.png";
+import illustration3 from "./Illustration_3.png";
 import visa from "./m_visa.png";
 import paypal from "./m_paypall.png";
 import mastercard from "./m_mastercard.png";
@@ -14,6 +15,7 @@ export {
     logo,
     illustration1,
     illustration2,
+    illustration3,
     visa,
     paypal,
     mastercard,

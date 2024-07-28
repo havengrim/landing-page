@@ -19,7 +19,7 @@ const Hero = () => {
                 </p>
               </React.Fragment>
             ))}
-            <div className='flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between w-full sm:w-1/2'>
+            <div className='flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between w-full sm:w-1/2 md:w-full lg:w-1/2 '>
               <input
                 type='email'
                 placeholder='Enter your email'
@@ -38,7 +38,7 @@ const Hero = () => {
           <img
             src={illustration1}
             alt="Illustration"
-            className='h-[30vh] sm:h-[45vh] w-full sm:w-[30vw] hidden sm:block'
+            className='h-[30vh] sm:h-[45vh] w-full sm:w-[30vw] hidden sm:block md:hidden lg:block'
           />
         </div>
       </div>
