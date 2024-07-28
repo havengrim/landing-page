@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white dark:bg-gray-800">
-      <div className="container px-6 py-4 mx-auto">
+    <nav className="bg-white ">
+      <div className="container px-2 py-4 mx-auto">
         <div className="lg:flex lg:items-center">
           <div className="flex items-center justify-between">
             <a href="#">
@@ -61,9 +61,9 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'}`}
+            className={`absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'}`}
           >
-            <div className="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+            <div className="flex flex-col text-gray-600 capitaliz lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
               <a
                 href="#"
                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
@@ -94,7 +94,7 @@ const Navbar = () => {
             <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
               <a
                 href="#"
-                className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                className="mx-2 text-gray-600 transition-colors duration-300 transform  hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="Reddit"
               >
                 <svg
@@ -111,7 +111,7 @@ const Navbar = () => {
 
               <a
                 href="#"
-                className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                className="mx-2 text-gray-600 transition-colors duration-300 transform  hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="Facebook"
               >
                 <svg
@@ -128,7 +128,7 @@ const Navbar = () => {
 
               <a
                 href="#"
-                className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                className="mx-2 text-gray-600 transition-colors duration-300 transform  hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="Github"
               >
                 <svg
